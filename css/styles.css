@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #fff;
 }
 a {
@@ -12,20 +12,17 @@ ol {
   list-style-type: none;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07143;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
+header {
+  line-height: 1.17;
 }
+
+address { font-style: normal;}
 
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -37,34 +34,56 @@ h1 {
   color: #f4f4fd;
 }
 
-.nav-link {
+.nav-studio,
+.nav-portfolio,
+.nav-contacts {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-studio,
+.nav-portfolio,
+.nav-contacts:hover  {
+    color: #404bbf;}
+.nav-studio,
+.nav-portfolio,
+.nav-contacts:focus {
   color: #404bbf;
 }
 
-.address-link {
+.address-mail,
+.address-tel {
   font-weight: 400;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.address-link:hover,
-.address-link:focus {
+.address-mail,
+.address-tel:hover {
+    color: #404bbf;
+  }
+.address-mail,
+.address-tel:focus {
   color: #404bbf;
 }
-
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+  }
+.hero {background-color: #2e2f42}
 .hero-button {
   color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
   cursor: pointer;
 }
@@ -74,14 +93,18 @@ h1 {
   background-color: #404bbf;
 }
 
+.team {background-color: #F4F4FD}
+.team>ul>li { background-color: #FFFFFF}
+
 .benefits-title,
 .team-title,
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize
 }
 
 .benefits-subtitle,
@@ -111,3 +134,5 @@ h1 {
 .team-text {
   text-align: center;
 }
+
+.footer {background-color: #2e2f42}
