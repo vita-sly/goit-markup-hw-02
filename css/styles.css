@@ -43,12 +43,19 @@ address { font-style: normal;}
   letter-spacing: 0.02em;
 }
 
-.nav-studio,
-.nav-portfolio,
+.nav-studio:hover  {
+    color: #404bbf;}
+.nav-portfolio:hover  {
+    color: #404bbf;}
 .nav-contacts:hover  {
     color: #404bbf;}
-.nav-studio,
-.nav-portfolio,
+
+.nav-studio:focus {
+  color: #404bbf;
+}
+.nav-portfolio:focus {
+    color: #404bbf;
+  }
 .nav-contacts:focus {
   color: #404bbf;
 }
@@ -62,11 +69,15 @@ address { font-style: normal;}
   color: #434455;
 }
 
-.address-mail,
+.address-mail:hover {
+    color: #404bbf;
+  } 
 .address-tel:hover {
     color: #404bbf;
   }
-.address-mail,
+.address-mail:focus {
+    color: #404bbf;
+  }
 .address-tel:focus {
   color: #404bbf;
 }
