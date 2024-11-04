@@ -49,8 +49,7 @@ address { font-style: normal;}
   color: #404bbf;
 }
 
-.address-mail,
-.address-tel {
+.address-content {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -58,18 +57,13 @@ address { font-style: normal;}
   color: #434455;
 }
 
-.address-mail:hover {
+.address-content:hover {
     color: #404bbf;
   } 
-.address-tel:hover {
+.address-content:hover {
     color: #404bbf;
   }
-.address-mail:focus {
-    color: #404bbf;
-  }
-.address-tel:focus {
-  color: #404bbf;
-}
+
 .hero-title {
     font-weight: 700;
     font-size: 56px;
