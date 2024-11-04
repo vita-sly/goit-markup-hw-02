@@ -60,7 +60,7 @@ address { font-style: normal;}
 .address-content:hover {
     color: #404bbf;
   } 
-.address-content:hover {
+.address-content:focus {
     color: #404bbf;
   }
 
