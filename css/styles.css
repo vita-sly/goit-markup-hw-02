@@ -42,20 +42,10 @@ address { font-style: normal;}
   line-height: 1.5;
   letter-spacing: 0.02em;}
 
-.nav-studio:hover  {
-    color: #404bbf;}
-.nav-portfolio:hover  {
-    color: #404bbf;}
-.nav-contacts:hover  {
+.nav-content:hover  {
     color: #404bbf;}
 
-.nav-studio:focus {
-  color: #404bbf;
-}
-.nav-portfolio:focus {
-    color: #404bbf;
-  }
-.nav-contacts:focus {
+.nav-content:focus {
   color: #404bbf;
 }
 
@@ -107,7 +97,7 @@ address { font-style: normal;}
 .team>ul>li { background-color: #FFFFFF}
 
 .benefits-title {
-  color:  #2e2f42;
+  color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -116,7 +106,7 @@ address { font-style: normal;}
   text-transform: capitalize
 }
 .team-title {
-  color:  #2e2f42;
+  color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -125,7 +115,7 @@ address { font-style: normal;}
   text-transform: capitalize
 }
 .portfolio-title {
-  color:  #2e2f42;
+  color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
