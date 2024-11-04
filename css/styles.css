@@ -106,8 +106,24 @@ address { font-style: normal;}
 .team {background-color: #F4F4FD}
 .team>ul>li { background-color: #FFFFFF}
 
-.benefits-title,
-.team-title,
+.benefits-title {
+  color:  #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize
+}
+.team-title {
+  color:  #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize
+}
 .portfolio-title {
   color:  #2e2f42;
   font-weight: 700;
