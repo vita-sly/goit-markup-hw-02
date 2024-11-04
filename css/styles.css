@@ -18,6 +18,8 @@ header {
 
 address { font-style: normal;}
 
+
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -34,14 +36,11 @@ address { font-style: normal;}
   color: #f4f4fd;
 }
 
-.nav-studio,
-.nav-portfolio,
-.nav-contacts {
+.nav-content {color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+  letter-spacing: 0.02em;}
 
 .nav-studio:hover  {
     color: #404bbf;}
@@ -110,6 +109,7 @@ address { font-style: normal;}
 .benefits-title,
 .team-title,
 .portfolio-title {
+  color:  #2e2f42;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
